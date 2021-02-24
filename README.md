@@ -1,1 +1,1 @@
-# generationTurma18
+# conteúdo aprendido no curso da Generation Brasil :)
