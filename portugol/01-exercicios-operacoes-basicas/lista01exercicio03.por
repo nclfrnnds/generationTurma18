@@ -19,7 +19,7 @@ programa
 		segundos = (totalSegundos % 3600) % 60
 
 		escreva("A duração do evento da fábrica é de ", horas,
-		" hora(s), ", minutos, " minuto(s) ", segundos, " e segundo(s)")
+		" hora(s), ", minutos, " minuto(s) e ", segundos, " segundo(s)")
 	
 	}
 	
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 78; 
+ * @POSICAO-CURSOR = 189; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
