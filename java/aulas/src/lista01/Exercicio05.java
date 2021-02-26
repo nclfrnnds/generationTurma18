@@ -20,6 +20,7 @@ public class Exercicio05 {
 		mediaPonderada = ((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) / (2 + 3 + 5);
 		
 		System.out.printf("A média ponderada do aluno é de %.2f", mediaPonderada);
+		ler.close();
 		
 	}
 

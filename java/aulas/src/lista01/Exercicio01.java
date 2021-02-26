@@ -19,7 +19,7 @@ public class Exercicio01 {
 		totalEmDias = (anos * 365) + (meses * 30) + (dias);
 		
 		System.out.printf("O total da sua idade em dias é de %d", totalEmDias);
-		
+		ler.close();
 	}
 
 }

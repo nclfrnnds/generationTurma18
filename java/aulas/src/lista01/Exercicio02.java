@@ -17,8 +17,10 @@ public class Exercicio02 {
 		meses = (totalEmDias % 365) / 30;
 		dias = (totalEmDias % 365) % 30;
 		
-		System.out.printf("A idade aproximada é de %d anos, %d meses e %d dias", anos, meses, dias);
-		
+		System.out.printf("A idade aproximada é de %d anos, %d meses e %d dias", 
+				anos, meses, dias);
+		ler.close();
+
 	}
 
 }

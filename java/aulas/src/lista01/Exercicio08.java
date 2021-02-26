@@ -15,7 +15,9 @@ public class Exercicio08 {
 		
 		custoConsumidor = custoFabrica + custoFabrica*0.28 + custoFabrica*0.45;
 		
-		System.out.printf("O custo do carro ao consumidor final é de R$ %.2f", custoConsumidor);
+		System.out.printf("O custo do carro ao consumidor final é de R$ %.2f",
+				custoConsumidor);
+		ler.close();
 		
 	}
 

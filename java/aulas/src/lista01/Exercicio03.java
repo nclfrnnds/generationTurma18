@@ -17,8 +17,9 @@ public class Exercicio03 {
 		minutos = (totalSegundos % 3600) / 60;
 		segundos = (totalSegundos % 3600) % 60;
 		
-		System.out.printf("A duração do evento da fábrica é de %d hora(s), %d minuto(s) e %d segundo(s)", 
-				horas, minutos, segundos);
+		System.out.printf("A duração do evento da fábrica é de %d hora(s), "
+				+ "%d minuto(s) e %d segundo(s)", horas, minutos, segundos);
+		ler.close();
 		
 	}
 

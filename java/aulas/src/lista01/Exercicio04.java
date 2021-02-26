@@ -17,12 +17,13 @@ public class Exercicio04 {
 		System.out.print("Digite o número C: ");
 		numC = ler.nextInt();
 		
-		numR = (int) Math.pow((numA + numB), 2);
+		numR = (int)Math.pow((numA + numB), 2);
 		numS = (int)Math.pow((numB + numC), 2);
 		numD = (numR + numS) / 2;
 		
 		System.out.printf("O resultado é %d", numD);
-		
+		ler.close();
+
 	}
 
 }

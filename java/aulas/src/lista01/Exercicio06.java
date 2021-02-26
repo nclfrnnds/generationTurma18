@@ -22,6 +22,7 @@ public class Exercicio06 {
 		d = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
 		
 		System.out.printf("A distância é de %.2f", d);
+		ler.close();
 		
 	}
 

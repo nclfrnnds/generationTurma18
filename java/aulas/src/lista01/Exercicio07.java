@@ -22,6 +22,7 @@ public class Exercicio07 {
 		numY = (numA*numF - numC*numD) / (numA*numE - numB*numD);
 		
 		System.out.printf("O valor de X é %.2f e o valor de Y é %.2f", numX, numY);
+		ler.close();
 		
 	}
 
