@@ -12,7 +12,7 @@
 programa
 {
 
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Tipos --> tp
 	
 	funcao inicio()
 	{
@@ -23,14 +23,14 @@ programa
 		escreva("Informe o peso de tomates: ")
 		leia(peso)
 
-		se (mat.arredondar(peso,0) > LIMITE) 
+		se (tp.real_para_inteiro(peso) > LIMITE) 
 		{
-			excesso = mat.arredondar(peso,0) - LIMITE
+			excesso = tp.real_para_inteiro(peso) - LIMITE
 			multa = excesso * VALORMULTA
 		} 
 
 		escreva("O peso é de ", peso, ", o excesso é ", 
-		excesso, " e a multa é de R$ ", multa, " reais")
+		excesso, " e a multa é de R$ ", multa)
 		
 	}
 	
@@ -40,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 712; 
+ * @POSICAO-CURSOR = 998; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

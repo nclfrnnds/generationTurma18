@@ -16,27 +16,21 @@ programa
 	funcao inicio()
 	{
 
-		inteiro num1, num2, num3, num4, 
-		quadrado1, quadrado2, quadrado3, quadrado4
+		inteiro num1, num2, num3, num4
 
 		escreva("Informe quatro números (separando pela tecla enter): \n")
 		leia(num1, num2, num3, num4)
-		
-		quadrado1 = mat.potencia(num1, 2)
-		quadrado2 = mat.potencia(num2, 2)
-		quadrado3 = mat.potencia(num3, 2)
-		quadrado4 = mat.potencia(num4, 2)
 
-		se (quadrado3 >= 1000)
+		se (mat.potencia(num3, 2) >= 1000)
 		{
-			escreva("O quadrado de ", num3, " é ", quadrado3)
+			escreva("O quadrado de ", num3, " é ", mat.potencia(num3, 2))
 		}
 		senao
 		{
-			escreva("O quadrado de ", num1, " é ", quadrado1, "\n",
-			"O quadrado de ", num2, " é ", quadrado2, "\n",
-			"O quadrado de ", num3, " é ", quadrado3, "\n",
-			"O quadrado de ", num4, " é ", quadrado4, "\n")
+			escreva("O quadrado de ", num1, " é ", mat.potencia(num1, 2), "\n",
+			"O quadrado de ", num2, " é ", mat.potencia(num2, 2), "\n",
+			"O quadrado de ", num3, " é ", mat.potencia(num3, 2), "\n",
+			"O quadrado de ", num4, " é ", mat.potencia(num4, 2), "\n")
 		}
 		
 	}
@@ -46,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 692; 
+ * @POSICAO-CURSOR = 378; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -7,7 +7,6 @@
 	- Juvenil B = 14 a 17 anos
 	- Adultos = Maiores de 18 anos
 
-
 	*/
 
 programa
@@ -23,19 +22,23 @@ programa
 
 		escreva("A idade é: ", idade, "\n")
 
-		se ((idade >= 5) e (idade <= 7))
+		se (idade < 5)
+		{
+			escreva("A idade não faz parte de nenhuma categoria.")
+		}
+		senao se (idade <= 7)
 		{
 			escreva("Categoria: Infantil A")
 		} 
-		senao se ((idade >= 8) e (idade <= 11)) 
+		senao se (idade <= 11) 
 		{
 			escreva("Categoria: Infantil B")
 		} 
-		senao se ((idade >= 12) e (idade <= 13)) 
+		senao se (idade <= 13) 
 		{
 			escreva("Categoria: Juvenil A")
 		} 
-		senao se ((idade >= 14) e (idade <= 17)) 
+		senao se (idade <= 17)
 		{
 			escreva("Categoria: Juvenil B")
 		} 
@@ -51,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 304; 
+ * @POSICAO-CURSOR = 717; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

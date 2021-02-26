@@ -30,16 +30,17 @@ programa
 		se ((indice >= 0.05 e indice <= 0.25) e
 		(categoria == 1 ou categoria == 2 ou categoria == 3))
 		{
-			escreva("A indústria está com o índice dentro do padrão")
+			escreva("A indústria está com o índice dentro do padrão.")
 		}
 		senao se ((indice >= 0.3 e categoria == 1) 
 		ou (indice >= 0.4 e (categoria == 1 ou categoria == 2))
 		ou (indice >= 0.5 e (categoria == 1 ou categoria == 2 ou categoria == 3)))
 		{
-			escreva("A indústria deve suspender suas atividades")
+			escreva("A indústria deve suspender suas atividades.")
 		}
-		senao {
-			escreva("Você informou algum dado divergente")
+		senao 
+		{
+			escreva("Você informou algum dado incorretamente!")
 		}
 		
 	}
@@ -50,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 670; 
+ * @POSICAO-CURSOR = 1337; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
