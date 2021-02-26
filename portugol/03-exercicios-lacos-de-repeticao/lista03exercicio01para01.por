@@ -18,11 +18,11 @@ programa
 			maiorSalario = 0.0, percentualAteCem = 0.0,
 			somatorioSalario = 0.0, somatorioFilhos = 0.0,
 			mediaSalario = 0.0, mediaFilhos = 0.0
-		const inteiro HABITANTES = 3
+		const inteiro HABITANTES = 3 // testado com 3, mas deve ser modificado para 20 de acordo com o enunciado
 		
-		para (inteiro i = 1; i<=HABITANTES; i++) {
+		para (inteiro contador = 1; contador <= HABITANTES; contador++) {
 			
-			escreva("Informe o salário do habitante ", i, ": ")
+			escreva("Informe o salário do habitante ", contador, ": ")
 			leia(numSalario)
 			escreva("Informe o número de filhos: ")
 			leia(numFilhos)
@@ -61,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1375; 
+ * @POSICAO-CURSOR = 614; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
