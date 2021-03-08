@@ -11,20 +11,24 @@ public class Main {
 		Scanner ler = new Scanner(System.in);
 
 		List<Funcionario> funcionarios = new ArrayList<>();
+		final int QTDFUNCIONARIOS = 2;
 
+		/*
 		Funcionario funcionario = new Funcionario("Gilberto", 1, 60, 25.50);
 		Terceiro terceiro = new Terceiro("Sarah", 2, 60, 25.50, 5);
 
 		System.out.println("Salário do " + funcionario.getNome() + ": " + funcionario.salario());
 		System.out.println("Salário do " + terceiro.getNome() + ": " + terceiro.salario());
-
 		System.out.println();
+		*/
 
+		/*
 		System.out.print("Digite a quantidade de funcionários: ");
 		int quantidade = ler.nextInt();
 		System.out.println();
+		*/
 
-		for (int x = 1; x <= quantidade; x++) {
+		for (int x = 1; x <= QTDFUNCIONARIOS; x++) {
 
 			System.out.print("Informe: 1 - Funcionário / 2 - Terceiro: ");
 			char tipo = ler.next().charAt(0);
@@ -47,6 +51,7 @@ public class Main {
 				funcionarios.add(new Funcionario(nome, matricula, horasTrabalhadas, valorPorHora));
 			}
 			System.out.println();
+			
 		}
 
 		System.out.println("Pagamento de salários: ");
