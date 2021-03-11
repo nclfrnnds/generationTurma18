@@ -12,8 +12,7 @@ public class Cavalo extends Animal {
 	
 	@Override
 	public String emitirSom() {
-		String som = "relincho";
-		return som;
+		return super.som = "relincho";
 	}
 	
 	@Override

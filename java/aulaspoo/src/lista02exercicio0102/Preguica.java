@@ -12,7 +12,7 @@ public class Preguica extends Animal {
 	
 	@Override
 	public String emitirSom() {
-		String som = "som da preguiça";
+		String som = "ressonar";
 		return som;
 	}
 	

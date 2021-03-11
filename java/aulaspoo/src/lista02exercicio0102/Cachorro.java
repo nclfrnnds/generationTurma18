@@ -12,8 +12,7 @@ public class Cachorro extends Animal {
 	
 	@Override
 	public String emitirSom() {
-		String som = "latido";
-		return som;
+		return super.som = "latido";
 	}
 	
 	@Override

@@ -6,7 +6,7 @@ public class Animal {
 	
 	private String nome;
 	private int idade;
-	private String som;
+	protected String som;
 	
 	// Construtor
 
@@ -42,7 +42,6 @@ public class Animal {
 	// Métodos
 	
 	public String emitirSom() {
-		String som = null;
 		return som;
 	}
 	
